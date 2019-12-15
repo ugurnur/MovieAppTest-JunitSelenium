@@ -103,7 +103,7 @@ public class AddMovie {
         
         WebElement elementPoster = driver.findElement(By.id("poster"));
         elementPoster.click();
-        elementPoster.sendKeys("https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg");
+        elementPoster.sendKeys("img/shawshank.jpg");
         
         WebElement elementSbmtBtn= driver.findElement(By.className("smb_button"));
         elementSbmtBtn.click();
@@ -117,6 +117,8 @@ public class AddMovie {
         
         WebElement elementSbmtBtn2= driver.findElement(By.className("smb_button"));
         elementSbmtBtn2.click();
+        
+        
         
         WebElement elementTitle3 = driver.findElement(By.className("list-title"));
 
