@@ -24,7 +24,6 @@ public class AdvanceSearch {
 	// 3. Not found any movie
 	
 
-
 	static WebDriver driver;
 	
 	@BeforeClass
