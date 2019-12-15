@@ -6,7 +6,7 @@ public class Movie {
 	private String title;
 	private int year;
 	private String genre;
-	private float imdb_rate;
+	private double imdb_rate;
 	private String cast;
 	private String awards;
 	private String trailerUrl;
@@ -14,7 +14,7 @@ public class Movie {
 
 	
 	
-	public Movie(String title, int year, String genre, float imdb_rate, String cast, String awards, String trailerUrl, String imgUrl) {
+	public Movie(String title, int year, String genre, double imdb_rate, String cast, String awards, String trailerUrl, String imgUrl) {
 		super();
 		this.title = title;
 		this.year = year;
@@ -27,10 +27,8 @@ public class Movie {
 		
 	}
 	
-
 	
-	
-	public Movie(int id, String title, int year, String genre, float imdb_rate, String cast, String awards, String trailerUrl, String imgUrl) {
+	public Movie(int id, String title, int year, String genre, double imdb_rate, String cast, String awards, String trailerUrl, String imgUrl) {
 		this.id = id;
 		this.title = title;
 		this.year = year;
@@ -62,9 +60,6 @@ public class Movie {
 		return id;
 	}
 
-	public void setId(int id) {
-		this.id = id;
-	}
 
 	public String getGenre() {
 		return genre;
@@ -74,11 +69,11 @@ public class Movie {
 		this.genre = genre;
 	}
 
-	public float getImdb_rate() {
+	public double getImdb_rate() {
 		return imdb_rate;
 	}
 
-	public void setImdb_rate(float imdb_rate) {
+	public void setImdb_rate(double imdb_rate) {
 		this.imdb_rate = imdb_rate;
 	}
 
